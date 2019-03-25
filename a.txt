@@ -1,0 +1,376 @@
+    1  sudo apt upgrade
+    2  sudo apt update
+    3  apt list --upgradeable
+    4  nvidia
+    5  ubuntu-drivers devices
+    6  sudo ubuntu-drivers autoinstall
+    7  reboot
+    8  nvidia-smi
+    9  gcc --version
+   10  sudo apt install vim
+   11  sudo vim /etc/modprobe.d/blacklist.conf 
+   12  sudo update-initramfs -u
+   13  nvidia-smi
+   14  lsmod |grep nouv*
+   15  nvidia-smi
+   16  cd Downloads/\
+   17  cd Downloads
+   18  sudo sh cuda_10.0.130_410.48_linux.run
+   19  sudo vim ~/.barshrc
+   20  sudo vim /etc/profile
+   21  nvcc -V
+   22  cd Downloads/
+   23  cd cudnn-10.0-linux-x64-v7.4.2.24/cuda/
+   24  sudo include/cudnn.h /usr/local/cuda/include
+   25  cd ..
+   26  cd ~
+   27  cd Downloads/
+   28  cd cuda
+   29  sudo cp include/cudnn.h /usr/local/cuda/include
+   30  sudo cp lib64/libcudnn* /usr/local/cuda/lib64
+   31  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+   32  python
+   33  python3
+   34  python2
+   35  sudo apt install python
+   36  python
+   37  sudo apt install pip
+   38  sudo apt-get install pip
+   39  pip list
+   40  sudo apt install python-pip
+   41  cd ..
+   42  sudo sh cuda_10.0.130_410.48_linux.run
+   43  nvcc
+   44  vim ~/.bashrc 
+   45  source ~/.bashrc 
+   46  echo $LD_LIBRARY_PATH
+   47  cd /usr/local/cuda-10.0/lib64/
+   48  ls
+   49  ls libcud*
+   50  vim ~/.bashrc 
+   51  source ~/.bashrc 
+   52  ls
+   53  cd ~/Downloads/
+   54  ls
+   55  cd /proc/driver/nvidia
+   56  ;s
+   57  ls
+   58  cat version 
+   59  cd ~
+   60  cd Downloads/
+   61  chmod +x cuda_9.0.176_384.81_linux.run 
+   62  ./cuda_9.0.176_384.81_linux.run 
+   63  sudo sh cuda_9.0.176_384.81_linux.run
+   64  nvcc -C
+   65  nvcc -V
+   66  cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+   67  sudo make
+   68  ./deviceQuery 
+   69  vim ~/.bashrc
+   70  sudo vim /etc/profile
+   71  idconfig
+   72  ldconfig
+   73  cd ~
+   74  sudo cp /usr/local/cuda-10.0/lib64/libcudart.so.10.0 /usr/local/lib/libcudart.so.10.0 && sudo ldconfig
+   75  sudo cp /usr/local/cuda-10.0/lib64/libcublas.so.10.0 /usr/local/lib/libcublas.so.10.0 && sudo ldconfig 
+   76  sudo cp /usr/local/cuda-10.0/lib64/libcurand.so.10.0 /usr/local/lib/libcurand.so.10.0 && sudo ldconfig
+   77  sudo vim .bashrc 
+   78  source ~/.bashrc
+   79  cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+   80  sudo make
+   81  make
+   82  ./deviceQuery 
+   83  cd ~
+   84  history
+   85  cd Downloads/
+   86  sudo tar -zxvf cudnn-10.0-linux-x64-v7.4.2.24.tgz 
+   87  cd ~
+   88  sudo pip install numpy
+   89  sudo pip install plotlib
+   90  sudo pip install matplotlib
+   91  sudo pip install opencv-python
+   92  python
+   93  cd darknet/
+   94  make clean
+   95  make -j10
+   96  make clean
+   97  make all
+   98  make clean
+   99  make -j10
+  100  make clean
+  101  make -j10
+  102  python
+  103  sudo apt install libopencv-dev
+  104  sudo pip install opencv-python
+  105  make clean
+  106  make -j10
+  107  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_70000.weights 
+  108  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_70000.weights -input a.mp4
+  109  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_70000.weights 
+  110  make clean
+  111  make -j10
+  112  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_70000.weights 
+  113  make clean
+  114  make -j10
+  115  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_70000.weights 
+  116  make clean
+  117  make -j10
+  118  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_70000.weights 
+  119  make clean
+  120  make -j10
+  121  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  122  sudo vim /etc/ld.so.conf
+  123  /sbin/ldconfig -v
+  124  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  125  make clean
+  126  make -j10
+  127  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  128  source ~/.bashrc 
+  129  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  130  source ~/.bashrc 
+  131  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  132  cd ..
+  133  sudo apt-get --purge remove cuda-repo-ubuntu1804-10-0-local-10.0.130_410.48
+  134  sudo apt-get --purge remove cuda-repo-ubuntu1804-10-0-local-10.0.130-410.48
+  135  sudo apt-get remove cuda
+  136  sudo apt-get autoclean
+  137  sudo apt-get remove cuda
+  138  sudo apt-get remove cuda*
+  139  sudo apt-get remove cuda
+  140  sudo apt-get autoclean
+  141  sudo /usr/local/cuda-10.0/bin/uninstall_cuda_10.0.pl 
+  142  sudo rm -rf /usr/local/cuda-10.0
+  143  vim /.bashrc
+  144  vim .bashrc
+  145  sudo apt remove nvidia-driver-390 
+  146  sudo apt autoclean
+  147  sudo apt autoremove
+  148  nvidia-smi
+  149  sudo apt install nvidia-driver-410 
+  150  sudo vim /etc/modprobe.d/blacklist.conf
+  151  sudo update-initramfs -u
+  152  lsmod | grep nouveau
+  153  nvidia-smi
+  154  sudo service lightdm stop
+  155  nvidia
+  156  nvidia-smi
+  157  ubuntu-drives devices
+  158  sudo apt install nvidia-drivers-390
+  159  sudo update
+  160  ubuntu-drives devices
+  161  ubuntu-drivers
+  162  ubuntu-drivers devices
+  163  sudo ubuntu-drivers autoinstall
+  164  sudo apt-get install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu-mesa libglu1-mesa-dev
+  165  sudo apt install gcc-6
+  166  sudo apt install g++-6
+  167  cd Downloads/
+  168  chmod +x cuda_9.0.176_384.81_linux.run 
+  169  sudo ./cuda_9.0.176_384.81_linux.run 
+  170  gcc -version
+  171  gcc --version
+  172  nvidia-smi
+  173  sudo reboot
+  174  nvidia-smi
+  175  sudo apt-get install gcc-4.8
+  176  sudo apt-get install g++-4.8
+  177  ls -l gcc*
+  178  cd /usr/bin/
+  179  ls -l gcc*
+  180  sudo ln -s gcc-4.8 gcc
+  181  ls -l g++*
+  182  sudo mv g++ g++.bak
+  183  sudo ln -s g++-4.8 g++
+  184  gcc -V
+  185  gcc -v
+  186  g++ -v
+  187  cd ~
+  188  cd Downloads/
+  189  ls
+  190  sudo sh cuda_9.0.176_384.81_linux.run
+  191  vim ~/.bashrc
+  192  source ~/.bashrc
+  193  nvcc -V
+  194  ls
+  195  sudo rm cuda
+  196  tar zxvf cudnn-9.0-linux-x64-v7.4.2.24.tgz 
+  197  sudo tar zxvf cudnn-9.0-linux-x64-v7.4.2.24.tgz 
+  198  cd cuda/
+  199  ls
+  200  sudo cp include/cudnn.h /usr/local/cuda/include/
+  201  sudo cp lib64/libcudnn* /usr/local/cuda/lib64
+  202  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+  203  python
+  204  nvcc -V
+  205  cd /usr/bin
+  206  ls -| gcc*
+  207  ls -|gcc*
+  208  ls -l gcc*
+  209  gcc --version
+  210  sudo mv gcc gcc.bak
+  211  sudo -l gcc*
+  212  cd darknet/
+  213  make clean
+  214  make -j10
+  215  make clean
+  216  make -j10
+  217  sudo reboot
+  218  cd darknet/
+  219  ls
+  220  cd code/
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd scripts/
+  225  ls
+  226  cd ..
+  227  ls
+  228  make clean
+  229  ls
+  230  cd src/
+  231  ls
+  232  cd ..
+  233  ls
+  234  vim Makefile 
+  235  make -j10
+  236  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  237  cd darknet/
+  238  make clean
+  239  make -j10
+  240  make clean
+  241  make -j10
+  242  make clean
+  243  ls
+  244  cd /
+  245  ls
+  246  cd etc/
+  247  ls
+  248  cd binfmt.d/
+  249  ls
+  250  cd ..
+  251  ls
+  252  l
+  253  ls
+  254  cd ..
+  255  ls
+  256  cd bin/
+  257  ls
+  258  which gcc
+  259  cd /usr/bin/
+  260  ls
+  261  gcc --version
+  262  gcc -v
+  263  vim .bashrc
+  264  sudo fdick -l
+  265  sudo fdisk -l
+  266  cd darknet/
+  267  ./darknet detector demo detection_scripts/polyp_detection.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  268  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights 
+  269  sh /usr/local/bin/Demo
+  270  cheese
+  271  sudo apt install cheese
+  272  cd /usr/local/share/applications
+  273  cd /usr/local/share
+  274  ls
+  275  cd ..
+  276  cd share/applications/
+  277  sudo vim Detection.desktop
+  278  Demo
+  279  cd Desktop/
+  280  vim Detection.desktop
+  281  htop
+  282  sudo apt install htop
+  283  nvidia-smi
+  284  watch nvidia-smi
+  285  vim Detection.desktop
+  286  watch nvidia-smi
+  287  cd /usr/local/bin/
+  288  echo $PATH
+  289  vim Demo.sh
+  290  ls
+  291  vim Demo
+  292  sudo vim Demo
+  293  sudo chmod 755 Demo
+  294  Demo
+  295  Demo 
+  296  vim ~/.bashrc
+  297  cd ~/Desktop/
+  298  sudo vim Detection.desktop 
+  299  sudo vim /usr/local/bin/Demo 
+  300  sudo vim Detection.desktop 
+  301  Demo
+  302  reboot
+  303  sudo power off
+  304  sudo poweroff
+  305  reboot
+  306  cd /usr/local/bin/
+  307  sudo vim Demo 
+  308  python
+  309  python3
+  310  shutdown
+  311  poweroff
+  312  sudo vim Detection.desktop 
+  313  cd /usr/local/bin/
+  314  vim A
+  315  sudo vim A
+  316  ls
+  317  cd Desktop/
+  318  vim Detection.desktop 
+  319  sudo vim Detection.desktop 
+  320  cd darknet/
+  321  ./darknet detector demo detection_scripts/coco.data detection_scripts/yolov3.cfg detection_scripts/yolov3-voc_200000neo.weights
+  322  ./darknet detector demo detection_scripts/coco.data detection_scripts/yolov3.cfg detection_scripts/yolov3-voc_200000nei.weights
+  323  ./darknet detector demo detection_scripts/coco.data detection_scripts/yolov3.cfg detection_scripts/yolov3-voc_20000nei.weights
+  324  A
+  325  poweroff
+  326  ksam
+  327  poweroff
+  328  cheese
+  329  sudo apt install cheese
+  330  cheese
+  331  cd /usr/local/bin/
+  332  sudo vim Demo 
+  333  Demo 
+  334  sudo vim Demo 
+  335  Demo 
+  336  sudo vim Demo 
+  337  poweroff 
+  338  cd Desktop/
+  339  vim Detection.desktop 
+  340  poweroff 
+  341  cd /usr/local/bin/
+  342  sudo vim Demo 
+  343  cd /usr/local/bin/
+  344  vim Demo 
+  345  cd darknet/
+  346  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 1 
+  347  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 0
+  348  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 0 -fullscreen
+  349  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 0
+  350  poweof
+  351  poweroff 
+  352  cd /usr/local/bin/
+  353  vim Demo 
+  354  g++ a.cpp -o a 'pkg-config opencv --cflags --libs'
+  355  ls
+  356  g++ a.cpp -o a `pkg-config opencv --cflags --libs`
+  357  ./a
+  358  g++ a.cpp -o a `pkg-config opencv --cflags --libs`
+  359  ./a
+  360  cd darknet/
+  361  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 0 -fullscreen -w 1280 -h 1080
+  362  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 0 -fullscreen -w 1920 -h 1280
+  363  poweroff 
+  364  python
+  365  shutdown
+  366  poweroff
+  367  cheese
+  368  cd darknet/
+  369  ./darknet detector demo detection_scripts/polyp_detection_single.data detection_scripts/polyp_detection_test.cfg backup/polyp_detection_train_95000.weights -c 0 -fullscreen -w 1920 -h 1280
+  370  cd /usr/local/bin/
+  371  nvcc -V
+  372  nvidia-smi
+  373  python
+  374  pip list
+  375  python
+  376  history > a.txt
