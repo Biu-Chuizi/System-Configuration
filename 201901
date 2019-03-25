@@ -1,4 +1,4 @@
-###laptop installtion success
+###laptop installtion success in ubuntu18.04
     1  sudo apt upgrade
     2  sudo apt update
     3  apt list --upgradeable
