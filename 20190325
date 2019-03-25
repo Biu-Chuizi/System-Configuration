@@ -1,4 +1,4 @@
-# No third-part installtion when install ubuntu18.04
+### No third-part installtion when install ubuntu18.04
     1  nvidia-smi
     2  ifconfig
     3  sudo apt install net-tools
