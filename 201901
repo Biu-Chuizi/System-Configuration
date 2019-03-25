@@ -1,3 +1,4 @@
+###laptop installtion success
     1  sudo apt upgrade
     2  sudo apt update
     3  apt list --upgradeable
