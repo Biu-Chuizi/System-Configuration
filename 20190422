@@ -30,3 +30,5 @@ pkg-config --modversion opencv
 pkg-config --cflags opencv
 保留 opencv 源码和 build 文件夹卸载在 build 目录下执行
 sudo make uninstall
+
+g++ a.cpp -o a `pkg-config --libs --cflags opencv`
