@@ -32,3 +32,4 @@ pkg-config --cflags opencv
 sudo make uninstall
 
 g++ a.cpp -o a `pkg-config --libs --cflags opencv`
+./a
