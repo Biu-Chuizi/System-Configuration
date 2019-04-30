@@ -15,9 +15,9 @@ sudo chmod a+x NVIDIA-Linux-x86_64-375.20.run
 安装(注意 参数)
 sudo ./NVIDIA-Linux-x86_64-375.20.run –no-opengl-files
 
-sudo cp -P include/cudnn.h /usr/local/cuda-10.1/include
-sudo cp -P lib64/libcudnn* /usr/local/cuda-10.1/lib64/
-sudo chmod a+r /usr/local/cuda-10.1/lib64/libcudnn*
+sudo cp include/cudnn.h /usr/local/cuda-10.1/include
+sudo cp lib64/libcudnn* /usr/local/cuda-10.1/lib64/
+sudo chmod a+r /usr/local/cuda-10.1/include/cudnn.h /usr/local/cuda-10.1/lib64/libcudnn*
 
 配置OPENCV环境变量
 sudo vim /etc/ld.so.conf
