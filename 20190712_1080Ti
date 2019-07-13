@@ -1,6 +1,8 @@
 Ubuntu 16.04 LTS install: no update, 3-part software install
-The newest Nvidia Driver install and cuda9.2(same with 20190325_2080Ti) 
-Opencv's version is 2.4.13.6.(https://docs.opencv.org/2.4.13.6/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation  https://www.dapinglee.tk/?p=62)
+The newest Nvidia Driver (NVIDIA-Linux-x86_64-430.34) install and based version cuda9.2(same with 20190325_2080Ti) 
+Opencv's version is 2.4.13.6.(https://docs.opencv.org/2.4.13.6/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation  
+https://www.dapinglee.tk/?p=62
+https://blog.csdn.net/sysuwuhongpeng/article/details/45485719)
 
 
   1  sudo apt-get update
