@@ -4,13 +4,14 @@
 https://github.com/John-Joe/System-Configuration/issues/5#issue-387554806
 
 ### Ubuntu.md
-### NVIDIA #7
-### CUDA #8
-### CUDNN #10
-### Anaconda #9 
-### python #12 
-### Opencv #1 
-### Pytorch #11
-### Tensorflow #13 
-### 系统变量 #14 
-### Windows #16 
+### NVIDIA.md
+### CUDA.md
+### CUDNN.md
+### Anaconda.md
+### python.md
+### Opencv.md
+### Pytorch.md
+### Tensorflow.md
+### 系统变量.md
+### Windows.md
+### 云同步软件.md
