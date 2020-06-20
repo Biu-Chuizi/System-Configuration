@@ -3,15 +3,15 @@
 
 https://github.com/John-Joe/System-Configuration/issues/5#issue-387554806
 
-# [Ubuntu](https://github.com/John-Joe/System-Configuration/blob/master/Ubuntu.md)
+# [Ubuntu](Ubuntu.md)
 # [NVIDIA](NVIDIA.md)
 # [CUDA](CUDA.md)
 # [CUDNN](CUDNN.md)
-# Anaconda
-# python
-# Opencv
-# Pytorch
-# Tensorflow
-# 系统变量
-# Windows
-# 云同步软件
+# [Anaconda](Anaconda.md)
+# [python](python.md)
+# [Opencv](OpenCV.md)
+# [Pytorch](Pytorch.md)
+# [Tensorflow](Tensorflow.md)
+# [系统变量](系统变量.md)
+# [Windows](Windows.md)
+# [云同步软件](云同步软件.md)
