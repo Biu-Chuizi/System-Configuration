@@ -3,7 +3,7 @@
 
 https://github.com/John-Joe/System-Configuration/issues/5#issue-387554806
 
-### Linux.md
+### Ubuntu.md
 ### NVIDIA #7
 ### CUDA #8
 ### CUDNN #10
