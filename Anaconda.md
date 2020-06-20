@@ -1,4 +1,4 @@
-### 总纲#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 在这里可以下载，推荐python3.6。(**Anaconda3-5.0.1-Linux-x86_64.sh**)
 https://repo.anaconda.com/archive/
 

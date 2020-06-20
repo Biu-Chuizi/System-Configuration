@@ -1,4 +1,4 @@
-### 总纲#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 
 现在pytorch在论文发布时使用率已经和tensorflow持平，并且代码更为简洁，推荐一下。
 `pip install torch torchvision`

@@ -1,4 +1,4 @@
-### **总纲**#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 
 **下载LabelImg**
 **方式1**：网址：**https://github.com/John-Joe/labelImg** 直接下载，下载后将**labelImg-master.zip**移动至**home**主文件夹下解压，得到**LabelImg-master**文件。

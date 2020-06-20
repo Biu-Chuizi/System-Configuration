@@ -1,4 +1,4 @@
-### **总纲**#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 
 Ubuntu16.04
 **CUDA8.0**要求GCC版本是5.x或者6.x

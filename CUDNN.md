@@ -1,4 +1,4 @@
-### 总纲#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 1. 下载与CUDA匹配的版本
 https://developer.nvidia.com/rdp/cudnn-download
 https://developer.nvidia.com/rdp/cudnn-download#a-collapse731-10

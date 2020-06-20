@@ -1,4 +1,4 @@
-### **总纲**#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 **安装前最好先看一遍官方手册**
 官网下载选择对应自己需求的版本（下载runfile{local}）：
 10.0版本：**https://developer.nvidia.com/cuda-downloads**

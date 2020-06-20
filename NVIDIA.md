@@ -1,4 +1,4 @@
-### **总纲**#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 **如果是双系统，首先禁用Windows安全模式**
 从官方网站下载最新的**匹配**的驱动
 **https://www.nvidia.com/Download/index.aspx**

@@ -1,4 +1,4 @@
-### **总纲**#5
+# [System-Configuration](https://github.com/John-Joe/System-Configuration)
 **自己编译：**
 还可以参考https://www.pyimagesearch.com/opencv-tutorials-resources-guides/
 官网下载源码https://opencv.org/releases.html
