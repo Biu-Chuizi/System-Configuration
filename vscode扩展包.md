@@ -14,7 +14,7 @@ token令牌：40aa701b3ec659edacc0cf5ef71b8edf688167f5
 
 
 # Typora也是一个优秀的Markdown编辑器
-详情可以见Typora官网（<https://typora.io/>），很简洁，各平台均通用，但是个人觉得可能vscode中的扩展包就挺好用,如果只是单纯的编写文档。
+详情可以见Typora官网（<https://typora.io/>），很简洁，各平台均通用，私以为vscode中的扩展包就挺好用,如果只是单纯的编写文档。
 
 ***Ref：*** 
 1. <https://sspai.com/post/54912>
