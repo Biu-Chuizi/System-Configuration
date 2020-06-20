@@ -9,7 +9,7 @@
     3. 在VScode中输入shift+alt+u（或者按ctrl+p 然后输入>sync）打开配置面板
     4. 输入gits和**复制的token令牌**，按 **shift+alt+u** 同步
     5. 在其他电脑下载插件和配置
-gits id：1ffdde2a49e49a0308bc01a425dcc0f5
+gits id：1ffdde2a49e49a0308bc01a425dcc0f5  
 token令牌：40aa701b3ec659edacc0cf5ef71b8edf688167f5 
 
 # Typora也是一个优秀的Markdown编辑器
