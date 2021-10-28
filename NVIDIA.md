@@ -13,7 +13,7 @@
 ` sudo apt-get install dkms build-essential linux-headers-generic`
 ` sudo apt-get install gcc-multilib xorg-dev`
 ` sudo apt-get install freeglut3-dev libx11-dev libxmu-dev` 
-` install libxi-dev  libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev`
+` sudo apt-get install libxi-dev  libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev`
 
 2. prohibit nouveau
 编辑配置文件：**`sudo vim /etc/modprobe.d/blacklist.conf`**
